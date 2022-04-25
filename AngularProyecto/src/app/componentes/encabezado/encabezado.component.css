@@ -1,0 +1,37 @@
+
+body{
+    background-color: bisque;
+}
+div#banner{
+    height: 600px;
+    width: 100%;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: 4px;
+    color: rgb(196, 196, 216);
+    background-color: rgb(56, 58, 148);
+    margin: 5%;
+    padding: 0px;
+    
+}
+.redes,button{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 60px 10px;
+    padding: 3px 30px;
+    list-style: none;
+    background-color: rgb(175, 77, 20);
+    transition: all 0.5s ease;
+    border-style: solid;
+    border-radius: 15px;
+}
+button:hover{
+    background: rgb(138, 40, 40);
+    box-shadow: 0px 10px 25px;
+}
+.container{
+    max-width: 1600px;
+    margin: auto;
+}
+
+
